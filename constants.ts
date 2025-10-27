@@ -1,37 +1,17 @@
-
-import { Industry } from './types';
-
-export const ZOHO_COLORS = {
-  red: '#E42527',
-  gold: '#FFB81C',
-  gray: '#F5F5F5',
-  darkGray: '#333333',
-  white: '#FFFFFF',
+export const CONFIG = {
+  APPS_SCRIPT_URL: 'https://script.google.com/macros/s/AKfycbxBjDVxxTIdns3Mcoa4iLgN7U49YClr47WxYd5VpADj7LRYlZaS0pRKtlr109p4JLKw/exec',
+  LOGO_EAND: 'https://ik.imagekit.io/xtj3m9hth/image-remove1bg-preview%20(3).png?updatedAt=1761220721716',
+  LOGO_ZOHO: 'https://ik.imagekit.io/xtj3m9hth/image-removebg-preview%20(3).png?updatedAt=1761220721361',
+  DEFAULT_LANGUAGE: 'en' as const,
+  ENABLE_PRESENTATION_MODE: true,
+  ENABLE_FEATURE_SUGGESTIONS: true
 };
 
-export const INDUSTRIES: Industry[] = [
-  {
-    name: 'Retail',
-    subIndustries: ['E-commerce', 'Brick & Mortar', 'Grocery', 'Fashion & Apparel'],
-  },
-  {
-    name: 'Logistics',
-    subIndustries: ['Supply Chain Management', 'Freight & Shipping', 'Warehousing', 'Last-Mile Delivery'],
-  },
-  {
-    name: 'Financial Services',
-    subIndustries: ['Banking', 'Insurance', 'Wealth Management', 'FinTech'],
-  },
-  {
-    name: 'Real Estate',
-    subIndustries: ['Residential', 'Commercial', 'Property Management', 'Construction'],
-  },
-  {
-    name: 'Healthcare',
-    subIndustries: ['Hospitals & Clinics', 'Telehealth', 'Medical Devices', 'Pharmaceuticals'],
-  },
-  {
-    name: 'Tourism & Hospitality',
-    subIndustries: ['Hotels & Resorts', 'Travel Agencies', 'Restaurants', 'Airlines'],
-  },
-];
+export const API_ENDPOINTS = {
+  PITCH: 'pitch',
+  SUGGESTION: 'suggestion',
+  SAVE_PITCH: 'savePitch',
+  METRICS: 'metrics',
+  INDUSTRY_HOOK: 'industryHook',
+  CUSTOM_PROPOSAL: 'customProposal'
+};
